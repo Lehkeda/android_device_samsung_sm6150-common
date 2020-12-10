@@ -135,7 +135,7 @@ VENDOR_SECURITY_PATCH := 2020-11-01
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
 include device/qcom/sepolicy/sepolicy.mk
-include device/rr/qcom/sepolicy.mk
+include device/rr/sepolicy/qcom/sepolicy.mk
 
 # WiFi
 BOARD_HOSTAPD_DRIVER := NL80211
