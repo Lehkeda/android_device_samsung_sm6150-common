@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-BOARD_VENDOR := xiaomi
+BOARD_VENDOR := samsung
 
-COMMON_PATH := device/xiaomi/sm6150-common
+COMMON_PATH := device/samsung/sm6150-common
 
 # Architecture
 TARGET_ARCH := arm64
