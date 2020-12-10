@@ -133,8 +133,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 VENDOR_SECURITY_PATCH := 2020-11-01
 
 # Sepolicy
-TARGET_SEPOLICY_DIR := msmsteppe
-include device/rr/sepolicy/qcom/sepolicy.mk
+#TARGET_SEPOLICY_DIR := msmsteppe
 
 # WiFi
 BOARD_HOSTAPD_DRIVER := NL80211
