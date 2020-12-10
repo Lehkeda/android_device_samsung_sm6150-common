@@ -370,5 +370,5 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libqdMetaData.vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
