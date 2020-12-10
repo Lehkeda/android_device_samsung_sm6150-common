@@ -109,10 +109,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
-    libbthost_if \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
-    vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@2.0.vendor
+    libbthost_if 
+
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -122,7 +120,7 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libxml2 \
     Snap \
-    vendor.qti.hardware.camera.device@1.0.vendor
+
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -133,8 +131,6 @@ PRODUCT_PACKAGES += \
 # Display/Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
-    android.hardware.graphics.mapper@3.0-impl-qti-display \
-    android.hardware.graphics.mapper@4.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     gralloc.sm6150 \
@@ -143,15 +139,7 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libvulkan \
     memtrack.sm6150 \
-    vendor.qti.hardware.display.allocator-service
 
-# Display interfaces
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.display.composer@1.0.vendor \
-    vendor.qti.hardware.display.composer@2.0.vendor \
-    vendor.qti.hardware.display.mapper@2.0.vendor \
-    vendor.qti.hardware.display.mapper@3.0 \
-    vendor.qti.hardware.display.mapper@4.0.vendor \
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -167,14 +155,8 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
-# Framework detect
-PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect.vendor \
-    libvndfwk_detect_jni.qti.vendor
-
 # GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1-impl-qti \
     libbatching \
     libgeofencing \
     libgnss
@@ -184,7 +166,6 @@ PRODUCT_COPY_FILES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl-qti \
     android.hardware.health@2.1-service
 
 # IFAA manager
@@ -286,10 +267,6 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    qti_telephony_hidl_wrapper.xml \
-    qti_telephony_utils.xml \
-    qti-telephony-hidl-wrapper \
-    qti-telephony-utils \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
@@ -306,10 +283,6 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
 
 # Wifi
 PRODUCT_PACKAGES += \
